@@ -1,28 +1,27 @@
 # student-enrollment-form
-
 ````markdown
-# 🎓 Student Enrollment Form - JPDB Micro Project
+# Student Enrollment Form (JPDB Micro Project)
 
-A simple, dynamic student enrollment form built using **HTML, CSS, JavaScript**, and powered by JsonPowerDB (JPDB). This form allows Create, Read, and Update operations with a real-time JSON database via REST API calls.
+A simple yet effective web-based form to manage student enrollment data using JsonPowerDB (JPDB) API.
 
-## 🔗 Hosted Demo
-[View Live](https://your-demo-link.netlify.app) *(Add link if hosted)*
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
 
----
-
-## 📌 Features
-
-- 🔐 Validates form inputs before submission
-- 📦 Uses **JPDB API** for storing and updating student data
-- 🎯 Based on roll number as a **primary key**
-- 🧠 Intelligent control button behavior:
-  - `Save` for new records
-  - `Update` for existing entries
-  - `Reset` to clear the form
+This project allows users to save, update, and reset student enrollment data directly into JPDB using REST APIs. It’s part of the JsonPowerDB Internship Assignment, showcasing practical skills in HTML, CSS, JavaScript, and API integration.
 
 ---
 
-## 📁 Input Fields
+## 🔧 Features
+
+- Realtime interaction with JsonPowerDB (JPDB)
+- Save new student records
+- Update existing records using Roll Number
+- Reset form with one click
+- Professional, responsive UI
+
+---
+📁 Input Fields
 
 | Field           | Description          |
 |----------------|----------------------|
@@ -31,63 +30,85 @@ A simple, dynamic student enrollment form built using **HTML, CSS, JavaScript**,
 | Class           | Student's Class      |
 | Birth-Date      | Date of Birth        |
 | Address         | Student Address      |
-| Enrollment-Date | Date of Enrollment   |
+| Enrollment-Date | Date of Enrollment
 
----
+## 📦 Installation
 
-## 🛠️ Technologies Used
+### Clone this repository:
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend (DB)**: JsonPowerDB (JPDB)
-
----
-
-## ⚙️ How It Works
-
-1. On page load:
-   - Only Roll-No field is active.
-   - Other fields and buttons are disabled.
-
-2. When Roll-No is entered:
-   - If not found → Enables Save/Reset, allows form fill-up.
-   - If found → Displays existing data, enables Update/Reset.
-
-3. All fields must be filled before Save/Update.
-
----
-
-## 📦 How to Run Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/student-enrollment-form.git
-   cd student-enrollment-form
+```bash
+git clone https://github.com/your-username/student-enrollment-form.git
+cd student-enrollment-form
 ````
 
-2. Open `index.html` in your browser.
+### Open in Browser:
 
-> ⚠️ Make sure to replace `connToken`, `dbName`, `relName`, and base URL with your JPDB credentials in `script.js`.
-
----
-
- 📄 JPDB API Reference
-
-* **Base URL:** `https://api.login2explore.com:5577`
-* **Save API:** `/api/iml`
-* **Get API:** `/api/irl`
-* **Update API:** `/api/iml`
+Just open `index.html` in any browser (Chrome, Firefox, Edge).
 
 ---
 
-📜 License
+## 🚀 Usage Example
 
-This project is licensed under the MIT License.
+1. Enter the **Roll Number**.
+2. If the record does not exist:
+
+   * Fill out the rest of the form.
+   * Click **Save** to add the record.
+3. If the record exists:
+
+   * Existing details will auto-populate.
+   * Edit fields and click **Update** to modify the record.
+4. Use **Reset** to clear the form anytime.
+
+![Screenshot](assets/screenshot.png)
+
+*For more screenshots and advanced usage, refer to the [Wiki](https://github.com/your-username/student-enrollment-form/wiki).*
 
 ---
 
-🙋‍♂️ Author
+## 🛠 Development Setup
 
-**Nitish Kumar**
-📧 [nitishkr4web@gmail.com](mailto:nitishkr4web@gmail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/nitish-kumar-69b32b232)
+> This is a pure front-end project, no Node.js required.
+
+But to contribute and test on a local dev server:
+
+```bash
+npm install -g live-server
+live-server
+```
+
+> Ensure CORS is enabled or use a browser plugin to allow local REST calls.
+
+---
+
+## 📘 Release History
+
+* 1.0.0
+
+  * First stable release 🎉
+  * Features: Save, Update, Reset form using JPDB
+  * Design improvements and validation
+
+---
+
+## 🤝 Contributing
+
+1. Fork it: [https://github.com/your-username/student-enrollment-form/fork](https://github.com/your-username/student-enrollment-form/fork)
+2. Create your feature branch: `git checkout -b feature/feature-name`
+3. Commit your changes: `git commit -am 'Add new feature'`
+4. Push to the branch: `git push origin feature/feature-name`
+5. Submit a pull request 🛠
+
+---
+
+📄 Meta
+
+Nitish Kumar – [@niitishkr](https://twitter.com/) – [nitishkr4web@gmail.com](mailto:nitishkr4web@gmail.com)
+Distributed under the **MIT** license. See `LICENSE` for more information.
+GitHub Repository: [https://github.com/whoisni30/student-enrollment-form](https://github.com/your-username/student-enrollment-form)
+
+---
+
+> Made with ❤️ using HTML, CSS, JavaScript, and JPDB API
+
 ```
