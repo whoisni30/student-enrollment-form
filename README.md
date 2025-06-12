@@ -93,7 +93,7 @@ live-server
 
 ## 🤝 Contributing
 
-1. Fork it: [https://github.com/your-username/student-enrollment-form/fork](https://github.com/your-username/student-enrollment-form/fork)
+1. Fork it: [https://github.com/whoisni30/student-enrollment-form/fork](https://github.com/your-username/student-enrollment-form/fork)
 2. Create your feature branch: `git checkout -b feature/feature-name`
 3. Commit your changes: `git commit -am 'Add new feature'`
 4. Push to the branch: `git push origin feature/feature-name`
