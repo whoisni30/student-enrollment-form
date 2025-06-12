@@ -106,7 +106,7 @@ live-server
 Nitish Kumar – [@niitishkr](https://twitter.com/) – [nitishkr4web@gmail.com](mailto:nitishkr4web@gmail.com)
 Distributed under the **MIT** license. See `LICENSE` for more information.
 GitHub Repository: [https://github.com/whoisni30/student-enrollment-form](https://github.com/your-username/student-enrollment-form)
-https://www.linkedin.com/in/nitish-kumar-69b32b232
+www.linkedin.com/in/nitish-kumar-69b32b232
 ---
 
 > Made with ❤️ using HTML, CSS, JavaScript, and JPDB API
